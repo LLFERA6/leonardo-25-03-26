@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuarios</title>
+    <style>
+        body {
+            background-color: rgb(139, 139, 221);
+            color: white;
+            font-family: sans-serif ;
+            margin: 0;
+            text-align: center;
+            
+            
+
+
+        }
+        div {
+            margin-bottom: 14px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cadastro completo de Usuarios</h2>
+    <form action="">
+        <div>
+            <label for="nome">nome: </label>
+            <input type="text" name="" id="nome" placeholder="digite seu nome" required>
+        </div>
+
+        <div>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" placeholder="digite seu email"required>
+        </div>
+
+        <div>
+            <label for="senaha">senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="digite sua senha" required>
+        </div>
+        <div>
+            <label for="">telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="ex: 44 88888-8888" required>
+                      
+        </div>
+        <div>
+            <label for="nasc">data de nascimento</label>
+            <input type="date" name="nasc" id="nasc">
+        </div>
+        <div>
+            <label for="">genero</label>
+            <input type="radio" name="genero:" id="fem" value="feminino">
+            <label for="fem">feminino</label>
+            <input type="radio" name="genero:" id="masc" value="masculino">
+            <label for="masc">masculino</label>
+        </div>
+        <div>
+            <button type="submit">cadastrar</button>
+
+        </div>
+
+        
+    </form>
+    
+</body>
+</html>
